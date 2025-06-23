@@ -1,0 +1,19 @@
+{
+  "name": "ld-web/sf-http-client",
+  "description": "HB FT11 Symfony HTTP Client example",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ld-web",
+      "email": "lucas@ld-web.net"
+    }
+  ],
+  "require": {
+    "symfony/http-client": "^7.3"
+  }
+}
